@@ -2,7 +2,7 @@ function filterArray(numbers, value) {
     let bigNumbers = [];
     for (let number of numbers) {
         if (number > value) {
-            bigNumbers.push[number];
+            bigNumbers.push(number);
         }
     }
     return bigNumbers;
